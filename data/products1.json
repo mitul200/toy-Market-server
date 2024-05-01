@@ -1,0 +1,52 @@
+[
+  {
+    "pictureURL": "https://example.com/toy1.jpg",
+    "name": "Super car",
+    "price": 29.99,
+    "rating": 4.5,
+    "availableQuantity": 100,
+    "detailDescription": "The Super Robot toy is equipped with advanced AI technology, making it an exciting companion for kids. It can walk, talk, and even dance! With its sleek design and interactive features, it's sure to be a hit with children of all ages.",
+    "sellerEmail": "seller@example.com",
+    "subcategory": "cartoy"
+  },
+  {
+    "pictureURL": "https://example.com/toy2.jpg",
+    "name": "Magic ship",
+    "price": 39.99,
+    "rating": 4.8,
+    "availableQuantity": 80,
+    "detailDescription": "Enter a world of enchantment with the Magic Castle Playset! This beautifully crafted playset features intricate details and multiple interactive elements, including a working drawbridge and secret compartments. Perfect for imaginative play, it will transport children to a magical realm where anything is possible.",
+    "sellerEmail": "seller@example.com",
+    "subcategory": "shiptoy"
+  },
+  {
+    "pictureURL": "https://example.com/toy3.jpg",
+    "name": "jeet plane",
+    "price": 24.99,
+    "rating": 4.3,
+    "availableQuantity": 120,
+    "detailDescription": "Embark on a prehistoric journey with the Dinosaur Adventure Set! This set includes realistic dinosaur figures, a playmat depicting a lush Jurassic landscape, and accessories for creating exciting dino-themed adventures. Kids will love exploring the ancient world and discovering fascinating facts about dinosaurs.",
+    "sellerEmail": "seller@example.com",
+    "subcategory": "planetoy"
+  },
+  {
+    "pictureURL": "https://example.com/toy4.jpg",
+    "name": "exclient car",
+    "price": 19.99,
+    "rating": 4.6,
+    "availableQuantity": 90,
+    "detailDescription": "Let your child's imagination soar with the Princess Dress-Up Kit! This set includes everything needed for a magical transformation, including a shimmering gown, sparkling tiara, and glittering wand. Whether attending a royal ball or ruling over a make-believe kingdom, this dress-up kit will make every little girl feel like a princess.",
+    "sellerEmail": "seller@example.com",
+    "subcategory": "cartoy"
+  },
+  {
+    "pictureURL": "https://example.com/toy5.jpg",
+    "name": "titanic",
+    "price": 34.99,
+    "rating": 4.7,
+    "availableQuantity": 110,
+    "detailDescription": "Build, create, and imagine with the Construction Zone Building Blocks! This set contains a variety of colorful blocks in different shapes and sizes, allowing children to construct anything they can dream up. From towering skyscrapers to bustling city streets, the possibilities are endless with these versatile building blocks.",
+    "sellerEmail": "seller@example.com",
+    "subcategory": "titanic toy"
+  }
+]
