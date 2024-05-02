@@ -50,11 +50,11 @@ async function run() {
       body.createdAt = new Date();
       const result = await productsCollection.insertOne(body);
       res.send(result);
-      console.log(result);
+      // console.log(result);
     });
 
     app.get("/myProducts/:email", async (req, res) => {
-      console.log(req.params.email);
+      // console.log(req.params.email);
       const result = await productsCollection
         .find({ email: { $regex: req.params.email, $options: "i" } })
         .toArray();
@@ -85,6 +85,19 @@ async function run() {
       const id = req.params.id;
       const filter = { _id: new ObjectId(id) };
       const result = await productsCollection.deleteOne(filter);
+      res.send(result);
+    });
+
+    app.patch("/product/:id", async (req, res) => {
+      const id = req.params.id;
+      const updateProducts = req.body;
+      const filter = { _id: new ObjectId(id) };
+      const updateProduct = {
+        $set: {
+          ...updateProducts,
+        },
+      };
+      const result = await productsCollection.updateOne(filter, updateProduct);
       res.send(result);
     });
 
